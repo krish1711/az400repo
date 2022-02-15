@@ -17,7 +17,7 @@ jobs:
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
       - name: chage dorectory
-        run: cd az400repo/Application
+        run: cd Application
       - name: Install dependencies
         run: dotnet restore
       - name: Build
